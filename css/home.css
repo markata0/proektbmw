@@ -1,0 +1,122 @@
+body{
+    margin:0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    text-shadow: 2px 2px #ff0000;
+}
+.banner-buttons {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner-button2:hover,
+.banner-button3:hover {
+    background-color: rgba(255, 255, 255, 0.52);
+}
+.banner-button2 {
+    transform: translateX(-1171%) translateY(380%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.banner-button3 {
+    transform: translateX(2595%) translateY(380%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.banner-button1{
+    text-decoration: none;
+    border-radius:5px;
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    background-color: white;
+    vertical-align: baseline;
+    text-align: center;
+    color: black;
+    padding: 17px 65px;
+}
+.banner {
+    margin-top: 35px;
+    text-align: center;
+}
+.banner-content {
+    display: inline;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.banner-content a{
+    font-weight: 700;
+    background-color:#1c69d4;
+    color:white;
+    position: relative; top: 524;
+}
+h3{
+    margin: 34px 0px 20px 0px;
+    color: #666;
+    font-size:17px;
+}
+.options{
+    margin-left:35px;
+    margin-right:35px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.options-buttons {
+    border-radius: 5px;
+    margin: 0px;
+    padding: 17px 65px;
+    font-size:14px;
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-weight:700;
+    border-color: #262626;
+    background-color: #0000;
+    cursor:pointer;
+}
+.options img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.options-con{
+    text-decoration:none;
+    padding: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.options-buttons:hover {
+    border-color:black;
+}
+#banner-image {
+    width: 1280px;
+    height: 720px;
+}
+.phrase{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    bottom: -20px;
+    position: absolute;
+}
+b{
+    font-weight: 700;
+}

@@ -1,0 +1,20 @@
+div{
+    margin: 40px;
+    font-size: 25px;
+    scrollbar-width: 17px;
+}
+
+input,
+input::placeholder{
+    padding: 10px 15px;
+    font: 26px/2 sans-serif;
+}
+
+input[type="submit"]{
+    background-color: rgb(247, 43, 43);
+}
+
+input[type="button"]{
+    font: 30px/3 sans-serif;
+    background-color: rgb(65, 244, 65);
+}

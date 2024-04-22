@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpapersmug.com/download/1920x1080/9920bc/synthwave-speedster-sunset.jpg");
+}
+.container {
+    width: 300px;
+    margin: 180px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] { /* Added input[type="text"] to style text inputs */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+a{
+    margin-left:67px;
+    color:orange;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+    cursor:pointer;
+    text-decoration:underline;
+}
+#log{
+    color:red;
+}
+#log:hover{
+    color:blue;
+}
+#policy{
+    color:black;
+}
+#policy a {
+    margin-left:3px;
+    color: blue;
+}
